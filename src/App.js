@@ -8,7 +8,7 @@ function App() {
       <header>
         <img className="profile-pic" alt="profile-pic" src="https://sberbom.s3.eu-north-1.amazonaws.com/_DSC0523+copy-3.jpg"/>
         <h1>SIGMUND BERBOM</h1>
-        <h2>Student at NTNU</h2>
+        <h2>Student på NTNU</h2>
         <a href="https://www.linkedin.com/in/sigmund-berbom-80b279158/">
           <i className="fab fa-linkedin icon"></i>
         </a>
