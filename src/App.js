@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
 import Prosjekt from './components/prosjekt';
+import ReactGA from 'react-ga';
 
 function App() {
+  ReactGA.initialize('225627253');
+  ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <div className="App">
       <header>
