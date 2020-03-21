@@ -23,17 +23,29 @@ function App() {
         </a>
       </header>
       <Prosjekt 
+        title="Windsurf Norge"
+        description="Windsurf Norge skal bli et nettsted for å dele informasjon om steder og windsurfe 
+        i Norge. Brukere skal kunne legge til spots, kommentere og rate. Nettstedet er under utvikling."
+        github="https://github.com/sberbom/windsurf-norge"/>
+      <Prosjekt 
         title="Elevkveld for ENT3R Trondheim"
         description="elevkveld.no er et nettsted brukt av ENT3R Trondheim for å 
         promotere elevkveldene de arrangerer. På nettsiden får elevene informasjon om hva de skal gjøre på 
         elevkvelden og hvilke foredragsholdere som kommer på besøk."
-        website="http://elevkveld.no"/>
+        website="http://elevkveld.no"
+        github="https://github.com/sberbom/elevkveld_react"/>
       <Prosjekt 
         title="ENT3R-TRD for ENT3R Trondheim"
         description="I forbindelse med utbruddet av COVID-19 trengte ENT3R Trondheim en nettside der 
         de enkelt kunne få ut informasjon til sine elever. Nettsiden innholder informasjon elevene trenger
         får å bruke de digitale klasserommene til ENT3R"
-        website="http://ent3r-trd.no"/>
+        website="http://ent3r-trd.no"
+        github="https://github.com/sberbom/ent3r-trd"/>
+      <Prosjekt 
+        title="Facerecognitionbrain"
+        description="Facerecognitionbrain er en applikasjon laget for å lære webutvikling og react. 
+        I applikasjonen kan brukeren legge til et bilde og programmet vil finne eventuelle ansikt i bilde"
+        github="https://github.com/sberbom/facerecognitionbrain"/>
       <div className="blank"></div>
     </div>
   );

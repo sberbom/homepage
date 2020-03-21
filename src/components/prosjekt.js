@@ -6,7 +6,8 @@ function Prosjekt(props) {
           <div className="prosjekt-container">
             <h2 className="prosjekt-tittel">{props.title}</h2>
             <p className="prosjekt-beskrivelse">{props.description}</p>
-            <p className="button" onClick={()=> window.open(props.website, "_blank")}>Se prosjekt</p>
+            {props.github && <p className="button" onClick={()=> window.open(props.github, "_blank")}>Github</p>}
+            {props.website && <p className="button" onClick={()=> window.open(props.website, "_blank")}>Se prosjekt</p>}
           </div>
       );
 }
