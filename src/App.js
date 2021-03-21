@@ -9,13 +9,13 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img className="profile-pic" alt="profile-pic" src="https://firebasestorage.googleapis.com/v0/b/sberbom.appspot.com/o/cv-bilde-cut.jpg?alt=media&token=fd56f7f1-b108-47fc-a983-5c732f2895c7"/>
+        <img className="profile-pic" alt="profile-pic" src="https://firebasestorage.googleapis.com/v0/b/sberbom.appspot.com/o/1602795572358.jfif?alt=media&token=afe1eaf3-a295-4b02-b292-2db8a93c037a"/>
         <h1>SIGMUND BERBOM</h1>
         <h2>Student på NTNU</h2>
-        <a href="https://www.linkedin.com/in/sigmund-berbom-80b279158/">
+        <a href="https://www.linkedin.com/in/sigmund-berbom-80b279158/" target="_blank">
           <i className="fab fa-linkedin icon"></i>
         </a>
-        <a href="https://github.com/sberbom">
+        <a href="https://github.com/sberbom" target="_blank">
           <i className="fab fa-github-square icon"></i>
         </a>
         <a href="mailto:sberbom@gmail.com">
@@ -26,12 +26,13 @@ function App() {
         title="Windsurf Norge"
         description="Windsurf Norge skal bli et nettsted for å dele informasjon om steder og windsurfe 
         i Norge. Brukere skal kunne legge til spots, kommentere og rate. Nettstedet er under utvikling."
+        website="https://windsurfnorge.web.app/"
         github="https://github.com/sberbom/windsurf-norge"/>
       <Prosjekt
         title="ENT3R-TRD for ENT3R Trondheim"
         description="I forbindelse med utbruddet av COVID-19 trengte ENT3R Trondheim en nettside der 
         de enkelt kunne få ut informasjon til sine elever. Nettsiden innholder informasjon elevene trenger
-        får å bruke de digitale klasserommene til ENT3R"
+        for å bruke de digitale klasserommene til ENT3R"
         website="http://ent3r-trd.no"
         github="https://github.com/sberbom/insposide"/>
       <Prosjekt 
@@ -39,7 +40,7 @@ function App() {
         description="elevkveld.no er et nettsted brukt av ENT3R Trondheim for å 
         promotere elevkveldene de arrangerer. På nettsiden får elevene informasjon om hva de skal gjøre på 
         elevkvelden og hvilke foredragsholdere som kommer på besøk."
-        website="http://elevkveld.no"
+        website="https://ent3r-trd.firebaseapp.com/"
         github="https://github.com/sberbom/elevkveld_react"/>
       <Prosjekt 
         title="Facerecognitionbrain"
