@@ -11,7 +11,7 @@ function App() {
       <header>
         <img className="profile-pic" alt="profile-pic" src="https://firebasestorage.googleapis.com/v0/b/sberbom.appspot.com/o/1602795572358.jfif?alt=media&token=afe1eaf3-a295-4b02-b292-2db8a93c037a"/>
         <h1>SIGMUND BERBOM</h1>
-        <h2>Student på NTNU</h2>
+        <h2>Student at NTNU</h2>
         <a href="https://www.linkedin.com/in/sigmund-berbom-80b279158/" target="_blank">
           <i className="fab fa-linkedin icon"></i>
         </a>
@@ -24,28 +24,29 @@ function App() {
       </header>
       <Prosjekt 
         title="Windsurf Norge"
-        description="Windsurf Norge skal bli et nettsted for å dele informasjon om steder og windsurfe 
-        i Norge. Brukere skal kunne legge til spots, kommentere og rate. Nettstedet er under utvikling."
-        website="https://windsurfnorge.web.app/"
+        description="Windsurf Norge is a web application for sharing information about windsurfing spots in Norway. 
+        Users can add windsurfing spots, comment on spots, and rate spots. 
+        The web application is under continuous development."
+        website="https://windsurfnorge.no/"
         github="https://github.com/sberbom/windsurf-norge"/>
       <Prosjekt
         title="ENT3R-TRD for ENT3R Trondheim"
-        description="I forbindelse med utbruddet av COVID-19 trengte ENT3R Trondheim en nettside der 
-        de enkelt kunne få ut informasjon til sine elever. Nettsiden innholder informasjon elevene trenger
-        for å bruke de digitale klasserommene til ENT3R"
-        website="http://ent3r-trd.no"
+        description="During the Covid pandemic, ENT3R Trondheim needed a webpage for sharing information with its students. 
+        The webpage has information on how to use ENT3Rs digital classroom and information on STEM studies at NTNU. 
+        The webpage is no longer in use."
+        website="http://insposide.web.app"
         github="https://github.com/sberbom/insposide"/>
       <Prosjekt 
         title="Elevkveld for ENT3R Trondheim"
-        description="elevkveld.no er et nettsted brukt av ENT3R Trondheim for å 
-        promotere elevkveldene de arrangerer. På nettsiden får elevene informasjon om hva de skal gjøre på 
-        elevkvelden og hvilke foredragsholdere som kommer på besøk."
+        description="During the Covid pandemic, ENT3R Trondheim needed a webpage for sharing information about big events with its students. 
+        Students get information about current and past events with ENT3R Trondheim on the web page. 
+        The application is no longer in use."
         website="https://ent3r-trd.firebaseapp.com/"
         github="https://github.com/sberbom/elevkveld_react"/>
       <Prosjekt 
         title="Facerecognitionbrain"
-        description="Facerecognitionbrain er en applikasjon laget for å lære webutvikling og react. 
-        I applikasjonen kan brukeren legge til et bilde og programmet vil finne eventuelle ansikt i bilde"
+        description="Facerecognitionbrain is an application made to learn about web development with react. 
+        A user can upload a picture in the application, and the program will find and mark faces within the image."
         github="https://github.com/sberbom/facerecognitionbrain"/>
       <div className="blank"></div>
     </div>
